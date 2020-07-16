@@ -14,6 +14,7 @@ import org.springframework.context.annotation.ComponentScan;
 public class ShoesApplication {
     public static void main(String[] args) {
         System.out.println("我是分支");
+        System.out.println("分支添加");
         SpringApplication.run(ShoesApplication.class, args);
     }
 }
